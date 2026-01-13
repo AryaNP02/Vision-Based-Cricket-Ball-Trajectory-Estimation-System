@@ -1,4 +1,4 @@
-# Cricket Ball Tracking - Refactored Project
+# Vision-Based-Cricket-Ball-Trajectory-Estimation-System
 
 A modern, modular computer vision pipeline for detecting and tracking cricket balls in video.
 
