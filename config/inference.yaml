@@ -1,0 +1,24 @@
+# Inference Configuration
+
+model:
+  weights: "models/checkpoints/best.pt"
+  conf_threshold: 0.35
+
+tracking:
+  max_distance: 50.0
+  max_frames_missing: 5
+
+output:
+  save_csv: true
+  save_video: true
+  draw_trajectory: true
+  trajectory_color: [0, 165, 255]  # BGR format
+  centroid_color: [0, 165, 255]
+  centroid_radius: 5
+  video_codec: "mp4v"
+
+paths:
+  input_videos: "data/raw"
+  output_videos: "experiments/results/videos"
+  output_csv: "experiments/results/csv"
+  confidence_output: "experiments/results/confidence"

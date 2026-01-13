@@ -1,0 +1,20 @@
+# Dataset Configuration for Cricket Ball Detection
+
+path: data/processed
+train: train
+val: val
+test: test
+
+nc: 1  # Number of classes
+names: ['cricket_ball']
+
+# Optional: data paths
+images:
+  train: train/images
+  val: val/images
+  test: test/images
+
+labels:
+  train: train/labels
+  val: val/labels
+  test: test/labels
